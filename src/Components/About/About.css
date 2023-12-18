@@ -1,0 +1,10 @@
+#about-cf #about-img{
+    height: 400px;
+    width: 100%;
+    /* border-radius: 10px; */
+    border-bottom-left-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://images.pexels.com/photos/9875418/pexels-photo-9875418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}

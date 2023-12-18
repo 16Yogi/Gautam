@@ -1,0 +1,31 @@
+#footer-cf{
+    color: white;
+    background-color: rgb(3, 13, 27);
+}
+#footer-cf .f-email{
+    height: auto;
+    /* border: 0.1px solid white; */
+    border-radius: 10px;
+    padding: 0.5px 0;
+    box-shadow: rgba(255, 255, 255, 0.637) 0px 3px 8px;
+}
+#footer-cf .f-email input{
+    width: 70%;
+    border: none;
+    outline: none;
+    color: white;
+
+    background-color: transparent;
+}
+#footer-cf .f-email button{
+    width: 30%;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+}
+#down-footer-cf{
+    color: white;
+    background-color: black;
+}

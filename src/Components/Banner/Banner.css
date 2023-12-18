@@ -1,0 +1,19 @@
+#banner-cf #bn-img{
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#banner-cf #bn-img:nth-child(1){
+    background-image: url("https://images.pexels.com/photos/1495580/pexels-photo-1495580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+#banner-cf #bn-img:nth-child(2){
+    background-image: url("https://images.pexels.com/photos/68173/flash-tesla-coil-experiment-faradayscher-cage-68173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+#banner-cf #bn-img:nth-child(3){
+    background-image: url("https://images.pexels.com/photos/159108/light-lamp-electricity-power-159108.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+#banner-cf #bn-img h3{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 45px;
+}
