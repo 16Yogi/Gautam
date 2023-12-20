@@ -1,9 +1,12 @@
 import React from 'react'
+import Map from '../Map/Map'
+import './Contect.css'
+
 
 export default function Contact() {
     return (
         <>
-            <div className='container-fluid py-5'>
+            <div className='container-fluid py-5' id='contact-cf'>
                 <div className='container py-5'>
                     <div className='col py-3 p-0'>
                         <h2>Contact Us</h2>
@@ -33,8 +36,9 @@ export default function Contact() {
                             </form>
                         </div>
                         <div className='col-lg-6 col-md-6 col-12'>
-                            <div className='col'>
-                                <h3>fdfkdkjh</h3>
+                            <div className='col' id='map'>
+                                <h3>Our Location</h3>
+                                <Map></Map>
                             </div>
                         </div>
                     </div>
