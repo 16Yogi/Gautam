@@ -1,32 +1,55 @@
 import React from "react";
-import { Navigation, Pagination } from "swiper/modules";
-// import Swiper and modules styles
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 export default function Ourporjects() {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid bg-dark text-white">
         <div className="container">
-          <div class="swiper">
-          
-            <div class="swiper-wrapper">
-             
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-            </div>
-           
-            <div class="swiper-pagination"></div>
+          {/* <Swiper
+            spaceBetween={50}
+            slidesPerView={3}
+            autoplay={{
+              delay: 1000, // Set the delay in milliseconds between slides
+              disableOnInteraction: false, // Continue auto-play even when user interacts with the swiper
+            }}
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+          </Swiper> */}
 
-           
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-           
-            <div class="swiper-scrollbar"></div>
-          </div>
+          <Swiper
+            // install Swiper modules
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={50}
+            slidesPerView={3}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+          >
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </>
