@@ -7,48 +7,94 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+
+import './Ourproject.css';
 export default function Ourporjects() {
+  
   return (
     <>
-      <div className="container-fluid bg-dark text-white">
-        <div className="container">
-          {/* <Swiper
-            spaceBetween={50}
-            slidesPerView={3}
-            autoplay={{
-              delay: 1000, // Set the delay in milliseconds between slides
-              disableOnInteraction: false, // Continue auto-play even when user interacts with the swiper
-            }}
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-          >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-          </Swiper> */}
-
+      <div className="container-fluid py-5" id="project-cf">
+        <div className="container py-5">
+        <div className="col">
+          <h2>Our Projects</h2>
+          <p>Lorem ipsum dolor sit</p>
+        </div>
           <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
-            slidesPerView={3}
-            navigation
+            slidesPerView={1}
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
+            className="py-4"
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide className="my-3 p-0 col-lg-3 col-md-6 col-sm-12" id="project-item">
+              <div className="col p-0">
+                <div className="col p-0">
+                  <img src="https://images.pexels.com/photos/2898199/pexels-photo-2898199.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                </div>
+                <div className="col py-2">
+                  <p><b>Lorem ipsum dolor sit</b></p>
+                  <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores totam sed id magnam a sint non dolore iusto alias unde.</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="my-3 p-0 col-lg-3 col-md-6 col-sm-12" id="project-item">
+              <div className="col p-0">
+                <div className="col p-0">
+                  <img src="https://images.pexels.com/photos/2898199/pexels-photo-2898199.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                </div>
+                <div className="col py-2">
+                  <p><b>Lorem ipsum dolor sit</b></p>
+                  <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores totam sed id magnam a sint non dolore iusto alias unde.</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="my-3 p-0 col-lg-3 col-md-6 col-sm-12" id="project-item">
+              <div className="col p-0">
+                <div className="col p-0">
+                  <img src="https://images.pexels.com/photos/2898199/pexels-photo-2898199.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                </div>
+                <div className="col py-2">
+                  <p><b>Lorem ipsum dolor sit</b></p>
+                  <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores totam sed id magnam a sint non dolore iusto alias unde.</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="my-3 p-0 col-lg-3 col-md-6 col-sm-12" id="project-item">
+              <div className="col p-0">
+                <div className="col p-0">
+                  <img src="https://images.pexels.com/photos/2898199/pexels-photo-2898199.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                </div>
+                <div className="col py-2">
+                  <p><b>Lorem ipsum dolor sit</b></p>
+                  <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores totam sed id magnam a sint non dolore iusto alias unde.</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="my-3 p-0 col-lg-3 col-md-6 col-sm-12" id="project-item">
+              <div className="col p-0">
+                <div className="col p-0">
+                  <img src="https://images.pexels.com/photos/2898199/pexels-photo-2898199.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                </div>
+                <div className="col py-2">
+                  <p><b>Lorem ipsum dolor sit</b></p>
+                  <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores totam sed id magnam a sint non dolore iusto alias unde.</span>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="my-3 p-0 col-lg-3 col-md-6 col-sm-12" id="project-item">
+              <div className="col p-0">
+                <div className="col p-0">
+                  <img src="https://images.pexels.com/photos/2898199/pexels-photo-2898199.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                </div>
+                <div className="col py-2">
+                  <p><b>Lorem ipsum dolor sit</b></p>
+                  <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores totam sed id magnam a sint non dolore iusto alias unde.</span>
+                </div>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

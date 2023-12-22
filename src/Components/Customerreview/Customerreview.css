@@ -1,0 +1,15 @@
+#custreview-cf{
+    background-color: rgba(0, 0, 0, 0.596);
+}
+#custreview-cf #custreview-item{
+    height: auto;
+    width: 100%;
+    /* box-shadow: rgba(255, 248, 248, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(60, 13, 230, 0.192) 0px 4px 12px;
+    border-radius: 10px;
+    background-color: rgb(238, 232, 232);
+}
+#custreview-cf #custreview-item img{
+    height: 50px;
+    width: 50px;
+}

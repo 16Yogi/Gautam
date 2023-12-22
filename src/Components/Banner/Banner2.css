@@ -1,0 +1,13 @@
+#banner2-cf{
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://images.pexels.com/photos/426443/pexels-photo-426443.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#banner2-cf h3{
+    font-weight: 700;
+    font-size: 50px;
+    padding-top:200px;
+    color: rgb(209, 209, 209);
+}
